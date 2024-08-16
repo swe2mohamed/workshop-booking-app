@@ -1,9 +1,10 @@
 import ReactDom from "react-dom/client";
 import "bootstrap/dist/css/bootstrap.css";
+import App from "./App";
+import ValidationForm from "./Booking/ValidationForm";
+import CancelBooking from "./Booking/CancelBooking";
 
-
-const element = <h1>Hello Reacrt</h1>
 const root = ReactDom.createRoot(document.getElementById('root'));
-
-
-root.render(element);
+root.render(<App />)
+//root.render(<ValidationForm />)
+//root.render(<CancelBooking />)
