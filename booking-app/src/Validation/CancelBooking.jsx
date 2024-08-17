@@ -1,7 +1,10 @@
 import React from "react";
+import Navbar from "../Home/Navbar";
 
 const CancelBooking = () => {
   return (
+    <>
+    <Navbar />
     <div>
       <div className="container mt-3">
         <h3>Cancel Booking</h3>
@@ -43,6 +46,7 @@ const CancelBooking = () => {
         </form>
       </div>
     </div>
+    </>
   );
 };
 

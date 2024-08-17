@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href="/">
             Logo
           </a>
           <button
@@ -20,17 +20,17 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/">
                   Home
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/booking">
                   Booking List
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="/cancel-booking">
                   Cancel Booking
                 </a>
               </li>
