@@ -1,14 +1,18 @@
 /* Container to center the buttons in the middle of the page */
 .toggle-button-container {
     height: 100vh; /* Make the container take up the full viewport height */
-  }
-  
-  /* Custom button size and appearance */
-  .custom-btn-size {
+    display: flex; /* Use flexbox to center content */
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+}
+
+/* Custom button size and appearance */
+.custom-btn-size {
     font-size: 20px; /* Font size in pixels */
     padding: 10px 20px; /* Padding for button size */
     border-radius: 8px; /* Rounded corners */
     font-weight: bold; /* Bold text */
     min-width: 150px; /* Minimum button width for consistency */
-  }
-  
+    text-align: center; /* Ensure text is centered within the button */
+    white-space: nowrap; /* Prevent text from wrapping to a new line */
+}
