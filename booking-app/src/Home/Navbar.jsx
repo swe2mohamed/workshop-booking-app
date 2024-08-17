@@ -1,9 +1,10 @@
 import React from "react";
+import './Navbar.css'; // Import the custom CSS
 
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-sm bg-dark navbar-dark ">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             Logo

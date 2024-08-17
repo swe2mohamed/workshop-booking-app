@@ -4,9 +4,7 @@ import ToggleButton from './ToggleButton'
 const BookingList = () => {
   return (
     <div>BookingList
-        <div>
-            <ToggleButton />
-        </div>
+
     </div>
   )
 }

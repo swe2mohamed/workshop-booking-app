@@ -1,6 +1,6 @@
 import React from "react";
 
-const ValidationForm = () => {
+const Booking = () => {
   return (
     <div className="container mt-3">
       <h3>Booking</h3>
@@ -28,4 +28,4 @@ const ValidationForm = () => {
   );
 };
 
-export default ValidationForm;
+export default Booking;

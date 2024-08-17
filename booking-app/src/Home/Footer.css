@@ -1,0 +1,53 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Use a clean, modern font */
+  }
+  
+  #root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  main {
+    flex: 1;
+  }
+  
+  /* Footer Styling */
+  footer.footer {
+    background-color: #0a4275; /* Deep blue background */
+    color: #ffffff; /* White text for better contrast */
+    text-align: center;
+    padding: 1.5rem 0; /* Slightly increased padding for better spacing */
+    margin-top: auto; /* Ensure footer sticks to the bottom if the content is short */
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for depth */
+  }
+  
+  footer.footer a {
+    color: #f1f1f1; /* Lighter color for links */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Smooth transition for color change on hover */
+  }
+  
+  footer.footer a:hover {
+    color: #ffdd57; /* Gold color on hover for better interaction feedback */
+  }
+  
+  footer.footer .social-icons {
+    margin-top: 10px; /* Add some space above the social icons */
+  }
+  
+  footer.footer .social-icons a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 1.5rem; /* Increase the size of social icons */
+    display: inline-block;
+    transition: transform 0.3s ease;
+  }
+  
+  footer.footer .social-icons a:hover {
+    transform: scale(1.2); /* Slightly enlarge icons on hover */
+  }
+  

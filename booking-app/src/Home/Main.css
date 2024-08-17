@@ -1,0 +1,23 @@
+.main-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    width: 100%;
+  }
+  
+  .toggle-button-container {
+    position: relative;
+    z-index: 1; 
+  }
+  
+  .lottie-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px; 
+  }
+  

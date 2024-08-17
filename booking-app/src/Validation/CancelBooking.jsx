@@ -5,7 +5,6 @@ const CancelBooking = () => {
     <div>
       <div className="container mt-3">
         <h3>Cancel Booking</h3>
-        <p>Try to submit the form.</p>
 
         <form action="/action_page.php" className="was-validated">
           <div className="mb-3 mt-3">
