@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Navbar.css'; // Import the custom CSS
 
 const Navbar = () => {
@@ -6,9 +7,9 @@ const Navbar = () => {
     <div>
       <nav className="navbar navbar-expand-sm bg-dark navbar-dark ">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <Link className="navbar-brand" to="/">
             Logo
-          </a>
+          </Link>
           <button
             className="navbar-toggler"
             type="button"
@@ -20,19 +21,19 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="collapsibleNavbar">
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <Link className="nav-link" to="/">
                   Home
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/booking">
+                <Link className="nav-link" to="/booking-list">
                   Booking List
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/cancel-booking">
+                <Link className="nav-link" to="/cancel-booking">
                   Cancel Booking
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -1,0 +1,8 @@
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Aligns the button at the top of the container */
+    padding-top: 20px; /* Adjust this value to position the button closer or farther from the navbar */
+    height: auto; /* Adjusts the height so it's not taking the full viewport height */
+  }
+  
