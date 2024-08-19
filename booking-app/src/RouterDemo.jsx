@@ -8,6 +8,9 @@ import CancelBooking from "./Validation/CancelBooking";
 import Booking from "./Validation/Booking";
 import App from "./App";
 import AxiosDemo from "./Home/AxiosDemo"; // Ensure this is the correct import path
+import { useLottie } from "lottie-react";
+import notFoundAnimation from "./Home/Animation-404.json";
+
 
 const RouterDemo = () => {
   return (
@@ -25,11 +28,24 @@ const RouterDemo = () => {
 };
 
 // 404 Not Found Component
-const NotFound = () => (
-  <div style={{ textAlign: "center", padding: "50px" }}>
-    <h1>404 Not Found</h1>
-    <p>The page you are looking for does not exist.</p>
-  </div>
-);
+const NotFound = () => {
+  const options = {
+    animationData: notFoundAnimation,
+    loop: true,
+    autoplay: true,
+  };
+
+  const { View } = useLottie(options);
+
+  return (
+    <div style={{ textAlign: "center", padding: "50px" }}>
+      <div style={{ maxWidth: "300px", margin: "0 auto" }}>
+        {View}
+      </div>
+      <h1>404 Not Found</h1>
+      <p>The page you are looking for does not exist.</p>
+    </div>
+  );
+};
 
 export default RouterDemo;

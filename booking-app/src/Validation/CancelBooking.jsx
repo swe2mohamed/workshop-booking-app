@@ -1,5 +1,7 @@
 import React from "react";
 import Navbar from "../Home/Navbar";
+import { useLottie } from "lottie-react";
+import cryAnimation from "./Animation-cry.json"; // Ensure the path is correct
 
 const CancelBooking = () => {
   return (

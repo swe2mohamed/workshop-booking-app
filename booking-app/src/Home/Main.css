@@ -12,12 +12,11 @@
     z-index: 1; 
   }
   
-  .lottie-container {
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px; 
-  }
+.animation-container {
+  max-width: 50%; /* Increase the width of the animation */
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
   
